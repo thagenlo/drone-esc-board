@@ -2211,16 +2211,6 @@
 		)
 		(uuid "d747990f-b437-4618-b7f5-60611b103515")
 	)
-	(label "MOTORC"
-		(at 8.0012 2.0957 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f2287ce2-4409-40be-9e63-14d04ccc117a")
-	)
 	(hierarchical_label "ESC_EN"
 		(shape input)
 		(at 76.2 83.82 180)
