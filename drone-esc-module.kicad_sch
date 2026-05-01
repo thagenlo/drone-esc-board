@@ -1291,7 +1291,7 @@
 			)
 			(symbol "esc-module-board_1_1"
 				(pin unspecified line
-					(at 2.54 17.78 270)
+					(at 5.08 17.78 270)
 					(length 2.54)
 					(name "DSHOT"
 						(effects
@@ -1309,9 +1309,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -3.81 17.78 270)
+					(at -1.27 17.78 270)
 					(length 2.54)
-					(name "+BATT"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1327,7 +1327,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 17.78 270)
+					(at -6.35 17.78 270)
 					(length 2.54)
 					(name "+5V"
 						(effects
@@ -1345,6 +1345,24 @@
 					)
 				)
 				(pin unspecified line
+					(at -11.43 17.78 270)
+					(length 2.54)
+					(name "+BATT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
 					(at -19.05 7.62 0)
 					(length 2.54)
 					(name "MOTORA"
@@ -1354,7 +1372,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1372,7 +1390,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1384,24 +1402,6 @@
 					(at -19.05 -2.54 0)
 					(length 2.54)
 					(name "MOTORC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 -3.81 180)
-					(length 2.54)
-					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2828,6 +2828,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 25.4) (xy 243.84 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b12f7a2-aff0-4604-a39e-208dd24535fe")
+	)
+	(wire
+		(pts
 			(xy 95.25 25.4) (xy 95.25 27.94)
 		)
 		(stroke
@@ -2958,6 +2968,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 26.67) (xy 255.27 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419a8df1-747d-4ed3-b204-4ebfbc2d2d68")
+	)
+	(wire
+		(pts
 			(xy 181.61 128.27) (xy 186.69 128.27)
 		)
 		(stroke
@@ -3025,16 +3045,6 @@
 			(type default)
 		)
 		(uuid "4b52723c-e14c-42f6-9e89-1b97a4e41102")
-	)
-	(wire
-		(pts
-			(xy 259.08 59.69) (xy 255.27 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bf6252c-e1e8-4795-becd-201fc5b613ff")
 	)
 	(wire
 		(pts
@@ -3155,6 +3165,16 @@
 			(type default)
 		)
 		(uuid "72e5844c-f0b8-412d-a71e-a57799d6c82d")
+	)
+	(wire
+		(pts
+			(xy 255.27 25.4) (xy 243.84 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a0c896-6cb4-4f59-8c34-a53dfb93f3c0")
 	)
 	(wire
 		(pts
@@ -4437,16 +4457,6 @@
 			"QgpQgAIUoAAFKGAowEBnyMOVFKAABShAAQpQwP8F/gce/iDnOGGHcQAAAABJRU5ErkJggg=="
 		)
 	)
-	(label "+BATT"
-		(at 241.3 38.1 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "09402c98-b6b7-4ac3-9bbe-70ce8141e7e8")
-	)
 	(label "BOOT0"
 		(at 71.12 50.8 0)
 		(effects
@@ -4468,7 +4478,7 @@
 		(uuid "1f397df9-e326-49a6-b9d2-eccd7aae94be")
 	)
 	(label "+5V"
-		(at 236.22 38.1 90)
+		(at 238.76 38.1 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4598,7 +4608,7 @@
 		(uuid "6e60f49e-82cf-48db-8222-42a191838bcf")
 	)
 	(label "DSHOT"
-		(at 247.65 38.1 90)
+		(at 250.19 38.1 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4666,6 +4676,16 @@
 			(justify left bottom)
 		)
 		(uuid "79f723dc-41ca-444c-8ebf-981564657e48")
+	)
+	(label "+BATT"
+		(at 233.68 38.1 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "806a08b9-e8e3-47ff-8a07-5c7b5502d809")
 	)
 	(label "+5V"
 		(at 220.98 105.41 0)
@@ -6143,84 +6163,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e2e69fc-514c-45cd-a714-0e4303e6599e")
-		(property "Reference" "#PWR043"
-			(at 259.08 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.08 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "71690a6f-368c-4412-8ae0-daae1d6aad37")
-		)
-		(instances
-			(project "drone-esc-module"
-				(path "/5a929d07-7698-4420-af66-dd70e0412f52"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 76.2 182.88 0)
 		(unit 1)
 		(body_style 1)
@@ -7214,6 +7156,84 @@
 			(project "drone-esc-module"
 				(path "/5a929d07-7698-4420-af66-dd70e0412f52"
 					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.27 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "981ba6db-7e1f-43ff-866e-5d51fb1110a8")
+		(property "Reference" "#PWR043"
+			(at 255.27 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7bb1863-54d0-4373-ba26-3c5caa2f2cb8")
+		)
+		(instances
+			(project "drone-esc-module"
+				(path "/5a929d07-7698-4420-af66-dd70e0412f52"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
